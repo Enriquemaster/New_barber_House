@@ -15,3 +15,10 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+
+Route::get('/membresias', function () {
+    return view('membresias');
+    name('membresias');
+});
