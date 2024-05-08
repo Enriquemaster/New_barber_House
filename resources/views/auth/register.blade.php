@@ -20,7 +20,7 @@
             </div>
 
             <div class="mt-4">
-                <x-label for="password" value="{{ __('Contraseña') }}" />
+                <x-label for="password" value="{{ __('Contraseaña') }}" />
                 <x-input id="password" class="text-white bg-zinc-600 rounded-lg montserrat w-full h-10 text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-[#D9C8A9]" type="password" name="password" required autocomplete="new-password" />
             </div>
 
